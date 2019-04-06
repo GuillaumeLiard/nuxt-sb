@@ -1,11 +1,22 @@
 <template>
   <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two" />
-    <div class="Triangle Triangle--one" />
+    <div class="Triangle Triangle--two"/>
+    <div class="Triangle Triangle--one" :style="{borderBottomColor: color1}"  />
     <div class="Triangle Triangle--three" />
     <div class="Triangle Triangle--four" />
   </div>
 </template>
+
+<script>
+	export default {
+		props: {
+			color1: {
+				type: String,
+				default: '#41b883'
+			}
+		}
+	}
+</script>
 
 <style>
 .VueToNuxtLogo {
@@ -30,6 +41,7 @@
   border-left: 105px solid transparent;
   border-right: 105px solid transparent;
   border-bottom: 180px solid #41b883;
+  border-bottom-color: yellow;
 }
 
 .Triangle--two {

@@ -6,7 +6,18 @@ import { linkTo } from '@storybook/addon-links'
 
 import Logo from '../components/Logo'
 
-storiesOf('Logo', module).add('Logo', () => ({
-  components: { Logo },
-  template: '<Logo />'
-}))
+storiesOf('Logo', module)
+	.add('Default', () => ({
+		components: { Logo },
+		template: `
+			<Logo />
+		`
+	}))
+	.add('Triangle 1 Red', () => ({
+		components: { Logo },
+		template: `
+			<Logo
+				color1="red"
+			/>
+		`
+	}))

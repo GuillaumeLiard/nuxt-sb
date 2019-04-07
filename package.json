@@ -1,7 +1,7 @@
 {
   "name": "nuxt-sb",
   "version": "1.0.0",
-  "description": "My beautiful Nuxt.js project",
+  "description": "Nuxt and storybook",
   "author": "GuillaumeLiard",
   "private": true,
   "scripts": {

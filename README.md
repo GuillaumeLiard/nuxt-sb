@@ -1,6 +1,6 @@
 # nuxt-sb
 
-> My beautiful Nuxt.js project
+> Nuxt + storybook + scss
 
 ## Build Setup
 

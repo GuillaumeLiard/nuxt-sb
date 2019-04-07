@@ -1,7 +1,9 @@
 <template>
   <section class="container">
     <div>
-      <logo />
+      <logo
+				color1="blue"
+			/>
       <h1 class="title">
         nuxt-sb
       </h1>

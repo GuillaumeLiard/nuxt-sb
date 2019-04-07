@@ -12,7 +12,8 @@
 		props: {
 			color1: {
 				type: String,
-				default: '#41b883'
+				// default: '#41b883'
+				default: '$gray'
 			}
 		}
 	}

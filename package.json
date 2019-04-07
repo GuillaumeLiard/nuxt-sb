@@ -9,7 +9,7 @@
     "build-server": "nuxt build",
     "start-server": "nuxt start",
     "build": "nuxt generate",
-    "storybook": "start-storybook -p 3001"
+    "storybook": "start-storybook -p 3001 --debug-webpack"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
@@ -24,6 +24,7 @@
     "babel-preset-vue": "^2.0.2",
     "node-sass": "^4.11.0",
     "nodemon": "^1.18.9",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^2.0.0"
   }
 }

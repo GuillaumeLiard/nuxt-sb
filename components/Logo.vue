@@ -20,6 +20,7 @@
 </script>
 
 <style lang="scss">
+// $secondary-color: #fff;
 .VueToNuxtLogo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;

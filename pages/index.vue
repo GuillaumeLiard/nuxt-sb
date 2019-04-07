@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <logo
-				color1="blue"
+				color2="green"
 			/>
       <h1 class="title">
         nuxt-sb

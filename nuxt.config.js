@@ -38,15 +38,15 @@ export default {
 	/*
 	** Nuxt.js modules
 	*/
-	// modules: [
-	// 	'@nuxtjs/style-resources'
-	// ],
-	// styleResources: {
-	// 	scss: [
-	// 		'./assets/vars/*.scss',
-	// 		'./assets/abstracts/_mixins.scss' // use underscore "_" & also file extension ".scss"
-	// 	]
-	// },
+	modules: [
+		'@nuxtjs/style-resources'
+	],
+	styleResources: {
+		scss: [
+			'./assets/vars/*.scss',
+			'./assets/abstracts/_mixins.scss' // use underscore "_" & also file extension ".scss"
+		]
+	},
 
 	/*
 	** Build configuration

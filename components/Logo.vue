@@ -13,13 +13,13 @@
 			color1: {
 				type: String,
 				// default: '#41b883'
-				default: '$gray'
+				// default: 'blue'
 			}
 		}
 	}
 </script>
 
-<style>
+<style lang="scss">
 .VueToNuxtLogo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;
@@ -51,7 +51,7 @@
   animation: goright 0.5s linear forwards 3.5s;
   border-left: 87.5px solid transparent;
   border-right: 87.5px solid transparent;
-  border-bottom: 150px solid #3b8070;
+  border-bottom: 150px solid $secondary-color;
 }
 
 .Triangle--three {
@@ -60,7 +60,7 @@
   animation: goright 0.5s linear forwards 3.5s;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-bottom: 120px solid #35495e;
+  border-bottom: 120px solid $secondary-color;
 }
 
 .Triangle--four {
@@ -69,7 +69,7 @@
   animation: godown 0.5s linear forwards 3s;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
-  border-bottom: 60px solid #fff;
+  border-bottom: 60px solid $secondary-color;
 }
 
 @keyframes turn {
